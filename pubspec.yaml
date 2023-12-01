@@ -1,0 +1,31 @@
+name: photo2text
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_hooks: any
+  flutter_riverpod: any
+  freezed_annotatiion: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  freezed: any
+  build_runner: any
+  riverpod_annotation: any
+  riverpod_generator: any
+  camera: any
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
